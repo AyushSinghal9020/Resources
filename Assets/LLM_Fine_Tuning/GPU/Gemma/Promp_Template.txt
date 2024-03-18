@@ -1,0 +1,6 @@
+Instruction:
+First I will feed you some information from a material and then you have to perform some task on that.
+\n{query}
+\n Now suppose I am a teacher and the above information is my material. Now I want to generate as much as distinct questions possible from the material to ask the students for the exam.
+The questions should be relevant to the above information and should be in simple english language and not repetative. Please generate the questions
+Output:
