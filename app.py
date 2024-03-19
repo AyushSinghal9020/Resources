@@ -6,8 +6,10 @@ def write_code(path) :
     files = os.listdir(path)
 
     for file in files :
-
-        try : st.code(open(f'{path}/{file}').read())
+        
+        try : 
+            st.code(file)
+            st.code(open(f'{path}/{file}').read())
         except : pass
 
 def rag() : 
